@@ -13,7 +13,8 @@
   "scripts": {
     "dev": "frontity dev",
     "build": "frontity build",
-    "serve": "frontity serve"
+    "serve": "frontity serve",
+    "commit": "cz"
   },
   "prettier": {},
   "dependencies": {
@@ -24,5 +25,20 @@
     "@frontity/wp-source": "^1.8.4",
     "dotenv": "^8.2.0",
     "frontity": "^1.11.1"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
   }
 }
