@@ -60,9 +60,6 @@ const TitleWrapper = styled.div`
   width: 100%;
   padding: 0 2rem;
 
-  @media (min-width: 500px) {
-    padding: 0 4rem;
-  }
 
   @media (min-width: 1000px) {
     width: auto;
@@ -75,16 +72,33 @@ const TitleWrapper = styled.div`
 
 const PageHeader = styled.header`
   z-index: 1;
-  background: ${(props) => props.bg};
-  position: relative;
+  display: flex;
+  justify-content: center;
+  ::after {
+    content: "";
+    display: block;
+    height: 6.6rem;
+    width: 100%;
+
+    @media (min-width: 700px) {
+      height: 8rem;
+    }
+
+    @media (min-width: 1000px) {
+      height: 12rem;
+    }
+  }
 `;
 
 const HeaderInner = styled.div`
+  position: fixed;
+  width: 100%;
+  background: transparent;
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 2.8rem 0;
-  max-width: 168rem;
+  max-width: 98rem;
   z-index: 100;
   margin-left: auto;
   margin-right: auto;
