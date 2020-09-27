@@ -22,11 +22,11 @@ const Archive = ({ state, showExcerpt, showMedia }) => {
   return (
     <>
       {/* If the list is a taxonomy, we render a title. */}
-      {/* {data.isTaxonomy && (
+      {data.isTaxonomy && (
         <ArchiveHeader labelColor={primary} label={data.taxonomy}>
           <span>{decode(state.source[data.taxonomy][data.id].name)}</span>
         </ArchiveHeader>
-      )} */}
+      )}
 
       {/* If the list is for a specific author, we render a title. */}
       {data.isAuthor && (

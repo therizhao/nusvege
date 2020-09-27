@@ -125,8 +125,6 @@ const MenuList = styled.ul`
   position: relative;
   list-style: none;
   margin: 0;
-  /* left: calc(50% - 50vw);
-  width: 100vw; */
 `;
 
 const ToggleText = styled.span`
@@ -138,9 +136,6 @@ const ToggleText = styled.span`
 
 const MenuListItem = styled.li`
   position: relative;
-  border-style: solid;
-  border-width: 0.1rem 0 0 0;
-  border-color: #dcd7ca;
   display: flex;
   flex-wrap: wrap;
   line-height: 1;

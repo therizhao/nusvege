@@ -50,9 +50,17 @@ const EntryCategoriesInner = styled.div`
   @media (max-width: 500px) {
     display: inline-block;
     overflow-x: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
     width: 90vw;
-    margin: -0.5rem 0 0 -1rem;
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
   @media (min-width: 700px) {

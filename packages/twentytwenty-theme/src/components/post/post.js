@@ -67,7 +67,7 @@ const Post = ({ state, actions, libraries }) => {
       <Header>
         <SectionContainer>
           {/* If the post has categories, render the categories */}
-          {post.categories && <PostCategories categories={categories} />}
+          {/* {post.categories && <PostCategories categories={categories} />} */}
 
           <PostTitle
             as="h1"

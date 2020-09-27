@@ -110,6 +110,7 @@ const elementBase = (colors) => css`
   h5,
   h6,
   .faux-heading {
+    font-family: 'Circular', sans-serif;
     font-feature-settings: "lnum";
     font-variant-numeric: lining-nums;
     font-weight: 700;

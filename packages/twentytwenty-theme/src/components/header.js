@@ -58,7 +58,7 @@ const TitleGroup = styled.div`
 const TitleWrapper = styled.div`
   display: flex;
   width: 100%;
-  padding: 0 3rem;
+  padding: 0 2rem;
 
   @media (min-width: 500px) {
     padding: 0 4rem;
@@ -88,6 +88,11 @@ const HeaderInner = styled.div`
   z-index: 100;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -1.5rem;
+
+  @media (min-width: 500px) {
+    margin-bottom: 0;
+  }
 
   @media (min-width: 700px) {
     width: calc(100% - 8rem);

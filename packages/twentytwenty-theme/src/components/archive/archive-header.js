@@ -20,10 +20,10 @@ const ArchiveHeader = styled.header`
   color: #000000;
   text-align: center;
   padding-top: 4rem;
-  padding-bottom: 2rem;
-  /* padding: 4rem 0; */
+  margin-bottom: -1rem;
 
   @media (min-width: 700px) {
+    display: none;
     padding-top: 8rem;
     /* padding: 8rem 0; */
   }
