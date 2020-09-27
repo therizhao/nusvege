@@ -4,7 +4,7 @@ const settings = {
   "name": "nusvege",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "https://www.nusvege.com",
       "title": "nusvege",
       "description": "Change What You Eat, Change The World"
     },
