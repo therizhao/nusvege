@@ -19,7 +19,7 @@
   },
   "prettier": {},
   "dependencies": {
-    "@frontity/core": "^1.8.0",
+    "@frontity/core": "^1.9.1",
     "@frontity/html2react": "^1.4.0",
     "@frontity/tiny-router": "^1.2.1",
     "@frontity/twentytwenty-theme": "./packages/twentytwenty-theme",

@@ -37,6 +37,7 @@ const settings = {
       state: {
         source: {
           api: process.env.REACT_APP_SOURCE_URL,
+          postsPage: '/blog/'
         },
       },
     },
